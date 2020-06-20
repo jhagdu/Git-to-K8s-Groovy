@@ -46,7 +46,7 @@ job("4 Send Mail") {
   }
 }
 
-buildPipelineView("K8s-Deploy-WebApp") {
+buildPipelineView("K8s Deploy WebApp") {
   title("From Git to K8s Deploy")
   description("Code from Git to Kubernetes - Complete Pipeline to Deploy")
   selectedJob("1 Git Pull")
