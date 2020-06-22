@@ -1,5 +1,5 @@
 job("1 Git Pull") {
-  description("Pulls Code From GitHub Repository")
+  description("Pulls Code From GitHub Repository")  
   
   scm {
     github("jhagdu/k8s-deploy", "master") 
